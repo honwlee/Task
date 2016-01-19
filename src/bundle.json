@@ -1,0 +1,47 @@
+{
+    "vendor": "utilhub.com",
+    "feature": "tasks",
+    "name": "Task",
+    "version": "1.0.0",
+    "description": "",
+
+    "activator": "Activator",
+
+    "dependencies": {
+        "services": [{
+            "alias": "task_srv",
+            "serviceType": "Server",
+            "symbolicName": "system:utilhub.com:task_srv"
+        }],
+        "extraCssFiles": [
+            "resources/stylesheets/app.css"
+        ]
+    },
+
+    "exports": {
+        "modules": [
+            "App"
+        ],
+        "services": [{
+            "serviceType": "App",
+            "category": "personal",
+            "name": "task",
+            "classModule": "App",
+            "initParams": {
+                "title": "task"
+            }
+        }]
+    },
+
+    "licenses": [{
+        "type": "Commercial",
+        "url": "http://www.hudaokeji.com/license101"
+    }, {
+        "type": "OEM",
+        "url": "http://www.hudaokeji.com/license201"
+    }],
+
+    "bugs": "http://bugs.utilhub.com/",
+    "keywords": ["utilhub", "community", "sns"],
+    "homepage": "http://www.utilhub.com"
+}

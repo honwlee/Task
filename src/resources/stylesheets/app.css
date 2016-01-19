@@ -1,0 +1,132 @@
+.Task * {
+  box-sizing: border-box;
+}
+.Task .task-action {
+  display: block;
+  width: 100%;
+  background-color: #fff;
+  padding: 6px 10px;
+  border-bottom: 1px solid #ccc;
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+  border-radius: 0;
+}
+.Task .task-action .globalBtn {
+  margin-top: 5px;
+  right: 15px;
+}
+.Task .task-action .taskTitleInput {
+  width: 90%;
+  height: 40px;
+  margin: 0;
+  padding: 16px;
+  border: none;
+  font-size: 14px;
+  background: transparent;
+}
+.Task .task-action .taskTitleInput:focus {
+  outline-style: none;
+  border-color: #42bdff;
+}
+.Task .task-header {
+  display: table;
+  text-align: center;
+  width: 100%;
+  height: 30px;
+  table-layout: fixed;
+  line-height: 40px;
+  background: rgba(102, 137, 100, 0.75);
+}
+.Task .task-header .content-header {
+  padding: 0;
+  display: table-cell;
+}
+.Task .task-header .content-header .header-part1 {
+  font-size: 18px;
+}
+.Task .task-header .content-header .header-part2 {
+  font-size: 65%;
+}
+.Task .task-center {
+  position: absolute;
+  top: 140px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: #fff;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.Task .task-center .task-remain, .Task .task-center .task-complete {
+  width: 50%;
+  padding: 15px;
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  background: #fff;
+}
+.Task .task-center .task-complete {
+  right: 0;
+  border-left: #ddd 1px solid;
+}
+.Task .task-center .task-content {
+  list-style: none;
+  padding: 0;
+  max-width: 80%;
+  margin: 0 auto;
+}
+.Task .task-center .task-content li {
+  position: relative;
+  height: auto;
+  cursor: pointer;
+  background: #fff;
+  padding: 18px 16px 18px 12px;
+  border-bottom: 1px dashed #bfbfbf;
+  -moz-transition: background 0.3s, box-shadow 0.3s;
+  -o-transition: background 0.3s, box-shadow 0.3s;
+  -webkit-transition: background 0.3s, box-shadow 0.3s;
+  transition: background 0.3s, box-shadow 0.3s;
+}
+.Task .task-center .task-content li:hover {
+  border-bottom: 1px solid #cbcbcb;
+  box-shadow: none;
+}
+.Task .task-center .task-content li a {
+  text-decoration: none;
+}
+.Task .task-center .task-content li a i {
+  color: #999;
+}
+.Task .task-center .task-content li a i:hover {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
+  opacity: 0.8;
+  cursor: pointer;
+}
+.Task .task-center .task-content p {
+  overflow: hidden;
+  /* word-wrap: break-word;
+  */
+  word-break: break-all;
+  padding-right: 40px;
+  margin: 0;
+}
+.Task .task-center .task-content .action {
+  display: none;
+  position: absolute;
+  right: 10px;
+  top: 20px;
+  font-size: 16px;
+}
+.Task .task-center .task-content .action .delete {
+  padding-right: 5px;
+}
+.Task .task-center .task-content .active {
+  display: block;
+}
+.Task .task-center .task-content-complete li p {
+  text-decoration: line-through;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=60);
+  opacity: 0.6;
+}
+
+
