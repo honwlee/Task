@@ -35,6 +35,13 @@ have fun for this!
 
 if you have some questions, please contact us with email of [lihongwang0618@gmail.com]
 
+## Preview (Full)
+
+<iframe src="http://localhost:3000/hub/apps/task/full"></iframe>
+
+## Preview (Window)
+
+<iframe src="http://localhost:3000/hub/apps/task"></iframe>
 
 ## License
 
