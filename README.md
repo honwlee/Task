@@ -35,6 +35,13 @@ have fun for this!
 
 if you have some questions, please contact us with email of [lihongwang0618@gmail.com]
 
+## Preview (Full)
+
+[http://backend.ihudao.dt.hudaokeji.com/hub/apps/task/full](http://backend.ihudao.dt.hudaokeji.com/hub/apps/task/full)
+
+## Preview (Window)
+
+[http://backend.ihudao.dt.hudaokeji.com/hub/apps/task](http://backend.ihudao.dt.hudaokeji.com/hub/apps/task)
 
 ## License
 
