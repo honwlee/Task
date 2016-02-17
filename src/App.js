@@ -21,7 +21,7 @@ define([
 
         "-public-": {
             "-methods-": {
-                init: function(args) {
+                prepare: function(args) {
                     this.overrided();
                     var self = this;
                     if (runtime.nodeStarted) {
